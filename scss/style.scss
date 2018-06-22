@@ -1,0 +1,329 @@
+@import "normalize";
+@import "layout";
+@import "slick";
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400');
+$bp-small:320px;
+$bp-medium: 768px;
+
+body{
+	color: #fff;
+	background: #fff;
+	font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1170px;
+}
+
+.ba-container--mod {
+	padding-left: 0px;
+	padding-right: 15px;
+	max-width: 1250px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5,h6, {
+	margin: 0;
+}
+
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	text-decoration: none;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+	display: inline-block;
+	color:#fff;
+	background-color: #27BEC7;
+	padding: 14px 8px;
+	max-width: 180px;
+	margin-top: 47px;
+	margin-bottom: 110px;
+	@media (max-width: 640px - 1px) {
+		margin-bottom: 157px;
+		margin-right: 35px;
+		}
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #1A9EA6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+.ba-intro {
+	background: url(../img/intro_bg.jpg) 50% no-repeat/cover;
+	text-align: center;
+	background-color: #E9E9E9;
+	&__title {
+		font: 400 36px/1 "Alegreya Sans SC", sans-serif;
+		color: #323643;
+		@media (max-width: 640px - 1px) {
+		font-size: 18px;
+		}
+
+	}
+	&__subtitle {
+		font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+		color: #323643;
+		text-align: left;
+		margin: 0;
+		margin-top: 30px;
+		@media (max-width: 640px - 1px) {
+			font-size: 16px;
+			margin-top: 29px;
+			padding-left: 30%;
+		}
+	}
+	&__info {
+		background: url(../img/flag-3158666_960_720.jpg) 50% no-repeat/cover;
+		@media (max-width: 640px - 1px) {
+			background: url(../img/intro-mobile.jpg) 0% no-repeat/cover;
+		}
+	}
+	&__main {
+		float:right;
+		max-width: 360px;
+		margin-right: 25px;
+		padding-top: 128px;
+		@media (max-width: 640px - 1px) {
+			margin-right: 10%;
+			padding-top: 30px;
+		}
+	}
+.ba-menu {
+	background-color: #27BEC7;
+	a {
+		font: 400 36px/1 "Alegreya Sans SC", sans-serif;
+		color: #fff;
+		margin-top: 20px;
+		@media (max-width: 640px - 1px) {
+			font-size: 24px;
+			margin-bottom: 24px;
+			margin-left: 45%;
+
+	}
+	}
+}
+.ba-nav {
+	@media (max-width: 640px - 1px) {
+		display:none;
+
+	}
+
+}
+}
+.ba-logo {
+
+}
+.ba-main-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.ba-main-nav  li {
+	float: left;
+	line-height: 80px;
+	padding-left: 33px;
+	@media (max-width: 960px - 1px) {
+		margin-left: 15px;
+		padding-left:  10px;
+
+	}
+
+}
+li:first-child {
+	padding-left: 0;
+}
+.ba-main-nav a {
+	font: 400 16px/1 "Alegreya Sans SC", sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+.ba-main-nav a:hover {
+	color: #323643;
+}
+
+// Section ba-advantages Без адаптивности
+.ba-advantages {
+	padding-top:45px;
+	&__title {
+		font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+		color: #323643;
+		text-align: center;
+	}
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin-top: 12px;
+			font: 300 16px/1 "Alegreya Sans SC", sans-serif;
+			color: #323643;
+			display: flex;
+			align-items: center;
+			p {
+				margin: 0;
+			}
+		}
+	}
+	&__img {
+		background: url(../img/1276844-48.png) 50% no-repeat;
+		width: 35px;
+		height: 33px;
+		margin-right: 9px;
+	}
+
+}
+// section ba-translate
+.ba-row--mod {
+	display:flex;
+	margin-right: 80px;
+}
+.ba-translate {
+	&__box {
+		width: 20%;
+		img {
+			margin-bottom: 32px;
+			display:block;
+			margin: auto;
+		}
+		p {
+			font: 300 16px/1 "Alegreya Sans SC", sans-serif;
+			color: #323643;
+			text-align: center;
+		}
+	}
+	&__title {
+		font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+		color: #323643;
+		text-align: center;
+		margin-bottom: 72px;
+	}
+}
+
+
+//section ba-team
+.ba-col-4--mod {
+	float:right;
+	margin-right: 150px;
+	margin-bottom: 30px;
+}
+.ba-row--mod2 {
+	display:flex;
+}
+.ba-team {
+	margin-top: 58px;
+	background: url(../img/womancut.jpg) 50% no-repeat;
+	background-position: left bottom;
+	right: 50%;
+	&__box {
+		display: flex;
+		margin-bottom: 45px;
+		margin-left: 75px;
+	}
+	&__title {
+		font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+		color: #323643;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+}
+.ba-woman {
+		margin-top: 50px;
+
+	img {
+
+
+	}
+}
+
+.ba-subtitle__info {
+	font: 400 16px/0.9 "Alegreya Sans SC", sans-serif;
+	color: #323643;
+	margin: 0;
+	padding-top: 5px;
+
+}
+.ba-team__boxsmall {
+		display: flex;
+		margin-bottom: 30px;
+		img {
+			display:block;
+			margin:0;
+			width: 30px;
+			height: 30px;
+		}
+		p{
+			font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+			color: #323643;
+			text-align: center;
+			margin: auto;
+			margin-left: 8px;
+		}
+}
+
+
+//footer
+.ba-footer {
+	background-color: #27BEC7;
+}
+.ba-row--footer {
+	display: flex;
+	//justify-content: space-between;
+}
+
+
+.ba-copyright {
+	text-align: left;
+	display:inline-block;
+}
+.ba-mail {
+	display: flex;
+	img {
+		width: 40px;
+		height: 40px;
+	}
+	a {
+		text-align: center;
+	}
+}
