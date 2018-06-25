@@ -731,109 +731,89 @@ li:first-child {
 .ba-main-nav a:hover {
   color: #323643; }
 
-.ba-advantages {
-  padding-top: 45px; }
-  .ba-advantages__title {
-    font: 400 18px/1 "Alegreya Sans SC", sans-serif;
-    color: #323643;
-    text-align: center; }
-  .ba-advantages__list {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    .ba-advantages__list li {
-      margin-top: 12px;
-      font: 300 16px/1 "Alegreya Sans SC", sans-serif;
-      color: #323643;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      .ba-advantages__list li p {
-        margin: 0; }
-  .ba-advantages__img {
-    background: url(../img/1276844-48.png) 50% no-repeat;
-    width: 35px;
-    height: 33px;
-    margin-right: 9px; }
-
-.ba-row--mod {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 80px; }
-
-.ba-translate__box {
-  width: 20%; }
-  .ba-translate__box img {
-    margin-bottom: 32px;
-    display: block;
-    margin: auto; }
-  .ba-translate__box p {
-    font: 300 16px/1 "Alegreya Sans SC", sans-serif;
-    color: #323643;
-    text-align: center; }
-
-.ba-translate__title {
+.ba-price__title {
   font: 400 18px/1 "Alegreya Sans SC", sans-serif;
   color: #323643;
   text-align: center;
-  margin-bottom: 72px; }
+  margin-top: 40px; }
 
-.ba-col-4--mod {
-  float: right;
-  margin-right: 150px;
-  margin-bottom: 30px; }
+.ba-price__box--mod {
+  margin-top: 0;
+  margin-top: 70px; }
 
-.ba-row--mod2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.ba-team {
-  margin-top: 58px;
-  background: url(../img/womancut.jpg) 50% no-repeat;
-  background-position: left bottom;
-  right: 50%; }
-  .ba-team__box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 45px;
-    margin-left: 75px; }
-  .ba-team__title {
-    font: 400 18px/1 "Alegreya Sans SC", sans-serif;
-    color: #323643;
-    text-align: center;
-    margin-bottom: 80px; }
-
-.ba-woman {
-  margin-top: 50px; }
-
-.ba-subtitle__info {
-  font: 300 16px/1.1 "Open Sans Condensed", sans-serif;
-  color: #323643;
-  margin: 0;
-  padding-top: 5px; }
-
-.ba-team__boxsmall {
+.ba-price__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 30px; }
-  .ba-team__boxsmall img {
-    display: block;
-    margin: 0;
-    width: 30px;
-    height: 30px; }
-  .ba-team__boxsmall p {
-    font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+  margin-top: 55px; }
+
+.ba-advantages__list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .ba-advantages__list li {
+    margin-top: 30px;
+    font: 300 16px/1 "Open Sans Condensed", sans-serif;
     color: #323643;
-    text-align: center;
-    margin: auto;
-    margin-left: 8px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .ba-advantages__list li p {
+      margin: 0; }
+
+.ba-price__img {
+  width: 75px;
+  height: 75px;
+  margin-left: 25px;
+  margin-right: 40px;
+  margin-top: 7px; }
+
+.ba-advantages__img {
+  background: url(../img/1276844-48.png) 50% no-repeat;
+  width: 35px;
+  height: 33px;
+  margin-right: 9px; }
+
+.ba-price__subtitle {
+  font: 400 16px/1 "Alegreya Sans SC", sans-serif;
+  color: #323643;
+  padding-left: 45px; }
+
+.ba-price__options {
+  margin: 0;
+  margin-top: 42px;
+  font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+  color: #323643;
+  margin-left: 45px; }
+
+.ba-price__options2 {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 45px;
+  font: 400 18px/1 "Alegreya Sans SC", sans-serif;
+  color: #323643; }
+
+.ba-main {
+  margin-top: 58px;
+  background: url(../img/price-woman.jpg) 50% no-repeat;
+  background-position: right bottom;
+  right: 50%;
+  padding-bottom: 110px; }
+
+.ba-woman {
+  text-align: left;
+  padding-top: 140px; }
+  .ba-woman a {
+    color: #323643;
+    padding-left: 20px;
+    font: 400 36px/1 "Alegreya Sans SC", sans-serif; }
+
+.ba-woman__title {
+  font: 400 36px/1 "Alegreya Sans SC", sans-serif;
+  color: #323643; }
 
 .ba-footer {
   background-color: #27BEC7;
@@ -899,4 +879,4 @@ li:first-child {
 	}
 }*/
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=price.css.map */
